@@ -1223,8 +1223,8 @@ function checkMem() {
 			lowmemLevel=""
 		fi
 		[[ "$setMemCheck" == '1' ]] && {
-			[[ "$TotalMem" -le "336" ]] && {
-				echo -ne "\n[${red}Error${plain}] Minimum system memory requirement is 384 MB!\n"
+			[[ "$TotalMem" -le "114" ]] && {
+				echo -ne "\n[${red}Error${plain}] Minimum system memory requirement is 128 MB!\n"
 				exit 1
 			}
 		}
